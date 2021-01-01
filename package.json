@@ -1,0 +1,29 @@
+{
+  "name": "agroproject-clone",
+  "version": "1.0.0",
+  "description": "agro clone",
+  "main": "source/main.js",
+  "scripts": {
+    "start":"node source/main.js",
+    "dev":"nodemon source/main.js",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/graceDev1/agroproject-clone.git"
+  },
+  "author": "Grace birindwa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/graceDev1/agroproject-clone/issues"
+  },
+  "homepage": "https://github.com/graceDev1/agroproject-clone#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
