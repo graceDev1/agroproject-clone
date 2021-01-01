@@ -1,0 +1,45 @@
+
+
+.header__info{
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+    padding: 20px;
+    margin: 5px;
+}
+
+.header__logo{
+    object-fit: contain;
+    height: 60px;
+}
+
+
+.header__nav{
+    padding: 20px;
+    background-color: #025635;
+}
+
+
+
+
+
+
+
+.header__email{
+  align-items: center;
+  text-align: center;
+  font-family: serif;
+  color: #025635 !important;
+  margin: 20px;
+  /* padding: 10px; */
+}
+
+.header__phoneNumber{
+    align-items: center;
+    margin: 20px;
+    color: #025635;
+    /* padding: 10px; */
+   
+
+  }
+
