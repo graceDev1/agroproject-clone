@@ -78,6 +78,26 @@ function Home() {
                     </div>
                 </div>
             </div>
+            <div className="home__space"></div>
+            <div className="home__schedule">
+                    <div className="home__scheduleTitle">
+                        <h3>Schedule an Appointment</h3>
+                    </div>
+                    <div className="home__scheduleStyleButton">
+                        <div className="btn home__scheduleButton">Book now</div>
+                    </div>
+                    
+            </div>
+            <div className="home__space"></div>
+            <div className="home__ourPartner">
+                <div className="home__ourPartnerTitle">
+                    <h1>Our Partners</h1>
+                </div>
+                <div className="home__ourPartnerLogo">
+                        <img className="" src="https://media-eu.camilyo.software/media-eu/static/1522/033.png" alt=""/>
+                        <img src="https://media-eu.camilyo.software/media-eu/static/1524/010.png" alt=""/>
+                </div>
+            </div>
         </div>
     )
 }
