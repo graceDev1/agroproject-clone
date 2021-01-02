@@ -1,0 +1,29 @@
+
+
+.card{
+    width: 20rem !important;
+    margin: 5px;
+}
+
+.card-body > p{
+    min-height: 10px;
+    background-color: #025635;
+    color: #ffffff;
+    text-align: center;
+    line-height: 54px;
+}
+
+
+.card-img-top{
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+} 
+
+.product__imgBox{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    min-height: 40px;
+    width: calc(25% - 10px );
+    left: 74.95%;
+}

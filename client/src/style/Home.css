@@ -1,0 +1,119 @@
+
+
+.home__documentText{
+    min-height: 10px;
+    text-align: justify;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #5A917B;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.home__productTitle{
+    min-height: 10px;
+    color: #025635;
+    text-align: center;
+    line-height: 120px;
+    font-size: 52px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+
+}
+
+
+.home__products{
+    display: flex;
+    align-items: center !important;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 6px 6px 6px 6px;
+    -moz-box-shadow: 0 0 12px 0 #666;
+    box-shadow: 0 0 12px 0 #666;
+    -webkit-box-shadow: 0 0 12px 0 #666;
+}
+
+
+.home__partners{
+    text-align: center;
+    font-weight: normal;
+    min-height: 10px;
+    margin-top: 50px;
+    
+}
+
+
+.home__partnerDetail{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+
+.home__partnersTitle{
+    text-align: center;
+    color: #025635;
+    text-transform: none;
+    font-weight: 400px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 30px;
+}
+
+.home__partnerDetailLeft > img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+
+.home__partnerDetailLeft {
+    margin-left: 90px;
+    text-align: center;
+    width: 450px;
+    -webkit-box-shadow: 0 0 12px 0 #666;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 6px 6px 6px 6px;
+    -moz-box-shadow: 0 0 12px 0 #666;
+    box-shadow: 0 0 12px 0 #666;
+}
+
+
+.home__partnerDetailRightPage1{
+    padding-top: 20px;
+    min-height: 10px;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 18px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    
+}
+
+
+.home__partnerDetailRight{
+    background-color: #025635;
+    min-height: 40px;
+    width: calc(57.58% );
+    left: 57.58%;
+    
+}
+
+.home__partnerDetailRightPage1 > p{
+    color: #fff;;
+}
+
+.home__partnerDetailRightPage1 > strong{
+    color: #fff;;
+}
