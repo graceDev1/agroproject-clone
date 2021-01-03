@@ -3,6 +3,8 @@ import Banner from './Banner'
 import Info from './Info'
 import '../style/Home.css';
 import Product from './Product';
+import Map from './Map';
+import 'leaflet/dist/leaflet.css';
 
 function Home() {
     return (
@@ -98,6 +100,8 @@ function Home() {
                         <img src="https://media-eu.camilyo.software/media-eu/static/1524/010.png" alt=""/>
                 </div>
             </div>
+            {/* this map party, with openstreetmap which comes in react-leaflet library */}
+            <Map/>
         </div>
     )
 }
