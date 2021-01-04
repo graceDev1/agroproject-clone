@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Header() {
     return (
         <div className="header">
-
+            <Link name='topPage'></Link>
             <div className="header__info">
                 <img 
                 className="header__logo"
